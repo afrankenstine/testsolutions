@@ -1,7 +1,7 @@
 In this problem, the given series to find the solution is
 1^1 + 2^2 + 3^3+...+1000^1000
 
-Step 1: A max lim it is defined that is 1000
+Step 1: A max limit is defined that is 1000, and a printrange to calculate modulo is also defined.
 Step 2: A generator is used to loop thorugh 1 to 1000 values which using the pow() function calculates the power as well.
 Step 3: The generator value is passed to sum() which calculates the sum of all values.
-Step4: The int is converted to string and slicing is performed to get the last 10 digits.
+Step4: The modulo is used on the sum which gives the last 10 digits

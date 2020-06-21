@@ -1,6 +1,7 @@
-M = 1000    
+M = 1000
+printrange = 10**10
 allsum = sum(pow(n, n) for n in range(1, M+1))
-sol = str(allsum)
-sol = sol[len(sol)-10:len(sol)]
 
-print("Solution is : ",sol)
+print("Solution is : ", allsum % printrange)
+
+
